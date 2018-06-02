@@ -1,0 +1,215 @@
+
+  body{
+      width : 100%;
+      margin-right: 10%;
+      margin-left: 10%;
+      float: center;
+  }
+  /* Remove the jumbotron's default bottom margin */ 
+   .toppage {
+    margin-bottom: 0;
+    font-size: 20px;
+    width: 100%;
+  }
+ 
+  /* Add a gray background color and some padding to the footer */
+  .footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    width : 100%;
+    background-image: url(images\aanhfoot.jpg);
+    margin-bottom: 0cm;
+
+  }
+  .text-right{
+      float:right;
+      width : 20%;
+      margin-right: 20%;
+      margin-top: 0.5cm;
+  }
+  .text-left{
+      float: left;
+      width: 20%;
+      color: red;
+      font-size: 5px;
+  }
+  .logo{
+      float: left;
+      width : 100%;
+      height: 10%;
+  }
+  .timkiem{
+      float: left;
+      width : 20%;
+      
+      margin-left: 10cm;
+  }
+  .gh {
+    float: right;
+      width : 10%;
+      margin-right: 3cm;
+  }
+  .logo1{
+      width:20%;
+      float: left;
+  }
+  .search-form{
+      width: 20%;
+  }
+  
+#myCarousel{
+    float: left;
+    width: 100%;
+}
+.slideanh{
+    float: left;
+}
+.container{
+    width : 100%;
+}
+
+#menu ul {
+    background: pink;
+    list-style-type: none;
+    text-align: left;
+    height: 0.7in;
+    
+    
+  }
+  #menu li {
+    color: Black;
+    display: inline-block;
+    width: fit-content;
+    
+    line-height: 40px;
+    height: 0.7in;
+  }
+  #menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: pink;
+    height:0.7in;
+    
+  }
+  #menu a:hover {
+    background: pink;
+    color:lightseagreen;
+    
+    height: 0.7in;
+  }
+  .sub-menu li {
+    display: none;
+    text-align: left;
+    height: 0.7in;
+    color: black;
+  }
+  #menu li {
+    position: relative;
+    height:0.7in;
+   }
+   .sub-menu {
+    display: none;
+    position: fixed;
+    float : left;
+    background-color: aqua;
+    color: black;
+    height: 0.7in;
+    z-index: 1;
+   }
+   #menu li:hover .sub-menu {
+    display: block;
+    height:0.7in;
+    background-color: pink;
+    
+   }
+   
+   #menu {
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+    width : 100%;
+   font-weight: bold;
+   height: 0.7in;
+   }
+   .sub-menu a{
+       float: left;
+
+
+   }
+   .sub-menu a:hover{
+       float: left;
+       background-color: white;
+   }
+   
+   #sanpham{
+       width : 100%;
+       margin-top: 5cm;
+       
+   }
+   .anhbanh {
+       float : left;
+       text-align: center;
+       width: 20%;
+       margin-left: 5%;
+     margin-top: 5%;
+       color :black;
+   }
+   .img {
+       width : 100%;
+height: 2in;
+border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+   }
+   img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);  
+   }
+   .ctsanpham {
+       padding: 5% 2%;
+       margin-top: 0cm;
+       width : 100%;
+   }
+.tensp{
+    text-align: center;
+    margin-top: 1cm;
+    padding: 2% 5%;
+}
+.anhsp {
+    width : 25%;
+    float : left;
+}
+h3{
+   text-align: right;
+    padding-top: 5cm;
+    background-color: white;
+    
+}
+.ttlh {
+    float:left;
+    width:30%;
+    margin-left: 1cm;
+}
+.h5{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 1cm;
+}
+    h4{
+        text-decoration: underline;
+    }
+    .carousel slide{
+        padding-top:  5cm;
+        height: 25cm;
+        
+    }
+    h1{
+        text-align: center;
+        text-decoration-style: solid;
+    }
+    
+
+        
